@@ -12,44 +12,60 @@
 
 
     .jumbotron{
-      background-image:url('https://stmed.net/sites/default/files/the-matrix-wallpapers-30078-1615375.jpg');
+      background-image:url('keys.jpg');
       background-size: cover;
+      background-position: center;
       color: white;
       height:100%;
       width:100%;
   }
-  .footer {
-    background-image: url("https://stmed.net/sites/default/files/the-matrix-wallpapers-30078-1615375.jpg");
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  color: white;
-  text-align: center;
-  }
+
 
     body{
-      background-image:url("bluematrix.jpg");
+      background-image:url("https://stmed.net/sites/default/files/the-matrix-wallpapers-30078-1615375.jpg");
       background-size: cover;
       background-attachment: fixed;
 
     }
+
+    footer{
+      display: block;
+    }
+
+    p{
+      font-size: 25px;
+    }
+
+
+    h2{
+      text-shadow: 2px 2px 4px #000000;
+    }
+
+    div.thirty{
+      background: rgba(0, 0, 0, 0.7)
+
+    }
+
+
+
   </style>
 
 
 </head>
 
-
 <body>
 
-<div container-fluid>
+
+<div class="container-fluid">
 <div class="jumbotron text-center" style="margin-bottom:0">
-  <h1 class="display-1 font-weight-bolder">Luis Garcia,Jr.</h1>
-  <h2 class="font-italic">Computer Science Grad.</h2>
+  <h1 class="display-1 font-weight-bolder" style="color:Gray;text-shadow:4px 4px 4px #000;">Luis Garcia,Jr.</h1>
+  <h2 class="font-italic" style="color:Gray;text-shadow:4px 4px 4px #000;">Computer Science Grad.</h2>
 </div>
 </div>
 
-<div container-fluid>
+
+
+<div class="container-fluid">
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
   <a class="navbar-brand"  href="#">Social</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -75,17 +91,19 @@
 </div>
 
 <div class="container-fluid">
+<div class="thirty">
 <div class="row">
-  <div class="col-lg-6"><h4>Programmer/Software/Web Dev.</h4></div>
-  <div class="col-lg-6"><h4 class="text-md-right">Email: luisgarcia.jr@att.net</h4></div>
+  <div class="col-lg-6"><h4 class="text-white">Programmer/Software/Web Dev.</h4></div>
+  <div class="col-lg-6"><h4 class="text-md-right" style="color:white">Email: luisgarcia.jr@att.net</h4></div>
+</div>
 </div>
 </div>
 
-<div class="container-fluid" >
-<button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo"><h4>About Me</h4></button>
-<div id="demo" class="collapse">
-  <p class="text-white">
-  I love technolgy and learning how to develope, create, tinker and manipulate the way a program/software/website looks
+<div class="container-fluid">
+  <div class="thirty">
+  <h1 class="text-white" class="font-weight-bolder" style="text-decoration:underline;">About Me</h1>
+    <p class="p-3 mb-2 bg-transparent text-white">
+      I love technolgy and learning how to develope, create, tinker and manipulate the way a program/software/website looks
   and operates. When I got my first Samsung Galaxy smartphone and got introduced to xda-developers and learning how to modify
   my phone, I became so facinated with what I did to change the UI and have a different experience with my phone. Now, although
   I didn't design the UI and how it functions, I was very intrigued in learning how it was done and how you go about learning
@@ -96,17 +114,18 @@
   more to learn and understand. I've taken the understanding of C++ and taught myself other launguages such as
   python, javascript and HTML, so I can get more experience. Moving forward I continue to learn and understand what I can do
   with each language and the possibilites.
-  </p>
+    </p>
 </div>
 </div>
 
 
-<div class="footer">
-  <div class="container">
-    <p></p>
-    <p class="text-white">Created By: Luis Garcia, Jr.</p>
+  <div class="container-fluid">
+    <footer>
+      <div class="jumbotron text-center" style="margin-bottom:0">
+    <p class="text-center" class="font-weight-bolder" style="color:White;text-shadow:4px 4px 4px #000;"><i>Created By: Luis Garcia, Jr.</i></p>
+      </div>
+    </footer>
   </div>
-</div>
 
 </body>
 </html>
