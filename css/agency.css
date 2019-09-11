@@ -9,11 +9,6 @@ body {
 
 }
 
-p {
-  line-height: 1.75;
-}
-
-
 
 .page-section {
   padding: 100px 0;
@@ -328,6 +323,15 @@ header.masthead .intro-text .intro-heading {
     padding-top: 2rem;
   }
 }
+
+
+#portfolio div.container {
+  margin: auto !important;
+  width: 80%;
+  border: 4px double #041E42 !important;
+  padding: 40px;
+}
+
 
 #portfolio span.section-heading-upper{
   font-family: 'Cinzel Decorative', cursive !important;
