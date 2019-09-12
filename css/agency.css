@@ -314,13 +314,20 @@ header.masthead .intro-text .intro-heading {
 
 
 @media (max-width: 767px) {
+
   #services h4{
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
   #services .container{
     width: 75%;
     margin: 1.5rem auto;
     padding-top: 2rem;
+  }
+}
+
+@media (max-width:377px){
+  #services .section-heading{
+    font-size: 2rem !important;
   }
 }
 
@@ -444,12 +451,44 @@ header.masthead .intro-text .intro-heading {
   z-index: 2;
 }
 
+@media (max-width:550px){
+  #portfolio span.ml-auto{
+    font-size: .9rem !important;
+  }
+
+  #portfolio li.list-unstyled-item{
+    font-size: .9rem !important;
+  }
+}
+
+@media (max-width:377px){
+  #portfolio span.section-heading-upper{
+    font-size: 2rem !important;
+  }
+
+  #portfolio span.ml-auto{
+    font-size: .8rem !important;
+  }
+
+  #portfolio li.list-unstyled-item{
+    font-size: .8rem !important;
+  }
+}
+
+
+
 #team .section-heading{
   font-family: 'Cinzel Decorative', cursive !important;
   font-weight: 900 !important;
   font-size: 45px !important;
   color: #041E42 !important;
   margin-bottom: 2rem !important;
+}
+
+@media (max-width:377px){
+  #team .section-heading{
+    font-size: 2rem !important;
+  }
 }
 
 
