@@ -331,12 +331,18 @@ header.masthead .intro-text .intro-heading {
   }
 }
 
+#portfolio .bg-dark{
+  background-image: url('img/salons.jpg');
+  background-repeat: no-repeat !important;
+}
 
-#portfolio div.container {
+#portfolio .container {
   margin: auto !important;
   width: 80%;
   border: 4px double #041E42 !important;
   padding: 40px;
+  background-color: white;
+
 }
 
 
@@ -497,6 +503,55 @@ header.masthead .intro-text .intro-heading {
     margin: 0 0 30px;
   }
 }
+
+#team a{
+  color: #041E42;
+}
+
+#team .fa-4x{
+  margin-top: 2rem;
+  color: #041E42 !important;
+}
+
+#team img.rounded-circle{
+  box-shadow: 0 0 10px 9px #aaa;
+}
+
+#team h3{
+  margin-top: 1rem;
+  font-family: 'Abril Fatface', cursive !important;
+}
+
+#team p{
+  font-size: 20px;
+}
+
+#team h6{
+  font-family: 'Eczar', serif !important;
+}
+
+
+#contact h2.section-heading{
+  font-family: 'Cinzel Decorative', cursive !important;
+  font-weight: 900 !important;
+  font-size: 45px !important;
+  margin-bottom: 2rem;
+}
+
+#contact h4{
+  font-family: 'Eczar', serif;
+  margin-top: 2rem;
+  color: white !important;
+}
+
+#googleMap iframe{
+  width: 100%;
+  height: 450px;
+
+}
+
+
+
 
 .portfolio-modal .modal-dialog {
   margin: 1rem;
@@ -848,15 +903,17 @@ section#contact :-ms-input-placeholder {
 }
 
 .footer {
+  background-color: #041E42;
   padding: 25px 0;
   text-align: center;
 }
 
 .footer span.copyright {
+  color: white !important;
   font-size: 90%;
   line-height: 40px;
   text-transform: none;
-  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: 'Eczar', serif;
 }
 
 .footer ul.quicklinks {

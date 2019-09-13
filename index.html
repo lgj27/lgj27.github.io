@@ -11,7 +11,7 @@
   <title>Louis Garcia - Master Stylist</title>
 
   <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
 
   <!-- Custom fonts for this template -->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -93,7 +93,10 @@
 
 <!--- Price Listing-->
 
-<section class="bg-light page-section" id="portfolio">
+<section class="bg-dark page-section" style="background-image:url('img/hairstylist.jpg');
+background-size:cover; background-repeat: no-repeat; display: flex; background-position: center center;
+flex-flow: column;"
+ id="portfolio">
   <div class="container">
     <div class="row">
       <div class="col-xl-9 mx-auto">
@@ -187,10 +190,12 @@
         <div class="col-lg-12">
           <div class="team-member">
             <img class="mx-auto rounded-circle" src="img/Pops.jpg" alt="">
-            <h4>Louis Garcia</h4>
+            <h3>Louis Garcia</h3>
             <p class="text-muted">Master Stylist</p>
-            <h6>Preferred Method of Contact For Appointment</h6>
-            <a href="tel:512-565-2561">Cell: (512) 565-2561</a>
+            <h6>Preferred Method of Contact For Appointment<br>
+            Text or Call:</h6>
+            <a href="tel:512-565-2561"><i class="fas fa-phone-square-alt fa-4x"></i>
+            <a href="tel:512-565-2561"><h4>(512) 565-2561</h4></a>
           </div>
         </div>
 
@@ -206,10 +211,18 @@
       <div class="row">
         <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase">Located</h2>
-        </div>
-      </div>
 
+        <div class="container" id="googleMap">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3442.7918604566653!2d-97.7374011855485!3d30.356864710702332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644cbaf721ff483%3A0x679a084c85cf167!2sNorthcross%20Mall!5e0!3m2!1sen!2sus!4v1568354049337!5m2!1sen!2sus" ></iframe>
+      </div>
+          <h4 class="location">Gallery of Salons<br>
+                                Northcross Mall, Ste. A-10<br>
+                                2525 W. Anderson Lane<br>
+                                Austin, Texas 78757<br>
+                                (512) 407-3677</h4>
+        </div>
     </div>
+  </div>
   </section>
 
   <!-- Footer -->
@@ -217,7 +230,7 @@
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-12">
-          <span class="copyright">Created by: Luis Garcia, Jr.</span>
+          <span class="copyright">Created by: <a href="www.luisgj.com">Luis Garcia, Jr.</span>
         </div>
 
 
@@ -240,6 +253,10 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/agency.min.js"></script>
+
+  <!-- Google Maps scripts. -->
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD-50GikbBxpC7kUQSHzfEDoCUHkiesWpY&callback=initMap"
+  type="text/javascript"></script>
 
 </body>
 
