@@ -249,12 +249,12 @@ header.masthead h3 {
 
 @media (max-width: 850px) {
   header.masthead h2 {
-    font-size: 2.9rem;
+    font-size: 3.3rem;
     letter-spacing: .15rem;
   }
 
   header.masthead h3{
-    font-size: 2rem;
+    font-size: 3rem;
   }
 }
 
@@ -264,12 +264,12 @@ header.masthead h3 {
   }
 
   header.masthead h2 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     letter-spacing: .15rem;
   }
 
   header.masthead h3{
-    font-size: 1.8rem;
+    font-size: 2.3rem;
 
   }
 }
@@ -280,12 +280,12 @@ header.masthead h3 {
   }
 
   header.masthead h2 {
-    font-size: 1.5rem;
+    font-size: 2rem;
     letter-spacing: .15rem;
   }
 
   header.masthead h3{
-    font-size: 1.3rem;
+    font-size: 1.8rem;
 }
 
 .service-heading {
