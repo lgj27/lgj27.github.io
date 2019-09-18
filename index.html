@@ -4,7 +4,7 @@
 <head>
 
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="">
   <meta name="author" content="">
 
@@ -24,9 +24,22 @@
   <link href="https://fonts.googleapis.com/css?family=Boogaloo|Eczar|Merienda+One&display=swap" rel="stylesheet" type='text/css'>
   <link href="https://fonts.googleapis.com/css?family=Playfair+Display:900" rel="stylesheet" type='text/css'>
   <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Carter+One|Cinzel+Decorative:900|Monoton|Shrikhand|Vidaloka&display=swap" rel="stylesheet" type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Federo|Suez+One|Ultra&display=swap" rel="stylesheet">
+
+  <style>
+  /* Make the image fully responsive */
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+  </style>
+
 
   <!-- Custom styles for this template -->
   <link href="css/agency.css" rel="stylesheet">
+  <link href="css/animate.css" rel="stylesheet">
+
+
 
 </head>
 
@@ -36,7 +49,8 @@
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div class="container">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">Louis Garcia</a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+        data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu <i class="fas fa-cut"></i>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -60,17 +74,54 @@
   </nav>
 
   <!-- Header -->
-  <header class="masthead">
-    <div class="container">
-      <div class="intro-text">
-        <span class="intro-lead-in">Master Stylist</span>
-        <span class="intro-heading text-uppercase">Louis Garcia</span>
-
+  <header>
+    <!--- Start Image Slider -->
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel"
+data-interval="7000">
+	<ol class="carousel-indicators">
+		<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active">
+		</li>
+		<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+		<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+	</ol>
+	<div class="carousel-inner">
+		<!--- Slide 1 -->
+		<div class="carousel-item active">
+      <img src="img/outsidesuit.jpg" alt="Los Angeles" width="1280" height="624">
+      <div class="carousel-caption">
+        <h3 class="animated zoomIn" style="animation-delay: 2s">Master Stylist</h3>
+        <h2 class="animated fadeInUp" style="animation-delay: 1s">LOUIS GARCIA</h2>
       </div>
     </div>
+		<!--- Slide 2 -->
+		<div class="carousel-item">
+      <img src="img/shop11.JPG" alt="Chicago" width="1280" height="624">
+		</div>
+		<!--- Slide 3 -->
+		<div class="carousel-item">
+      <img src="img/shop13.JPG" alt="New York" width="1280" height="624">
+		</div>
+    <!--- Slide 4 -->
+		<div class="carousel-item">
+      <img src="img/shop15.JPG" alt="New York" width="1280" height="624">
+		</div>
+		</div> <!--- End Carousel Inner -->
+		<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+		data-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		</a>
+		<a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+		data-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+		</a>
+	</div>
+<!--- End Image Slider -->
+
   </header>
 
-  <!-- Services -->
+<!--- BIO SECTION -->
+
   <section class="page-section" id="services">
     <div class="container">
       <div class="row">
@@ -91,7 +142,7 @@
     </div>
   </section>
 
-<!--- Price Listing-->
+<!--- PRICE LISTING -->
 
 <section class="bg-dark page-section" style="background-image:url('img/hairstylist.jpg');
 background-size:cover; background-repeat: no-repeat; display: flex; background-position: center center;
@@ -169,16 +220,8 @@ flex-flow: column;"
 </section>
 
 
+<!--- CONTACT SECTION -->
 
-
-
-  <!-- Portfolio Grid -->
-
-
-  <!-- About -->
-
-
-  <!-- Team -->
   <section class="bg-light page-section" id="team">
     <div class="container">
       <div class="row">
@@ -205,7 +248,8 @@ flex-flow: column;"
   </section>
 
 
-  <!-- Contact -->
+<!--- LOCATED SECTION -->
+
   <section class="page-section" id="contact">
     <div class="container">
       <div class="row">
@@ -215,11 +259,13 @@ flex-flow: column;"
         <div class="container" id="googleMap">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3442.7918604566653!2d-97.7374011855485!3d30.356864710702332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644cbaf721ff483%3A0x679a084c85cf167!2sNorthcross%20Mall!5e0!3m2!1sen!2sus!4v1568354049337!5m2!1sen!2sus" ></iframe>
       </div>
+      <a href="https://www.google.com/maps/dir/?api=1&origin&destination=Northcross+Mall+2525+West+Anderson+Lane%2C+Austin%2C+TX&travelmode=driving&dir_action=navigate">
           <h4 class="location">Gallery of Salons<br>
                                 Northcross Mall, Ste. A-10<br>
                                 2525 W. Anderson Lane<br>
-                                Austin, Texas 78757<br>
-                                (512) 407-3677</h4>
+                                Austin, Texas 78757</a>
+                                <h5>Phone:</h5>
+                                <h4>(512) 407-3677</h4>
         </div>
     </div>
   </div>
