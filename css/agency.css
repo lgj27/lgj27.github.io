@@ -16,71 +16,9 @@ body {
   padding: 100px 0;
 }
 
-.page-section h2.section-heading {
-  font-size: 40px;
-  margin-top: 0;
-  margin-bottom: 15px;
-}
-
-.page-section h3.section-subheading {
-  font-size: 16px;
-  font-weight: 400;
-  font-style: italic;
-  margin-bottom: 75px;
-  text-transform: none;
-  font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-}
 
 
-
-
-::-moz-selection {
-  background: #fed136;
-  text-shadow: none;
-}
-
-::selection {
-  background: #fed136;
-  text-shadow: none;
-}
-
-img::-moz-selection {
-  background: transparent;
-}
-
-img::selection {
-  background: transparent;
-}
-
-img::-moz-selection {
-  background: transparent;
-}
-
-.btn {
-  font-family: font-family: 'Abril Fatface', cursive !important;
-  font-weight: 700;
-}
-
-.btn-xl {
-  font-size: 18px;
-  padding: 20px 40px;
-}
-
-.btn-primary {
-  background-color: #fed136;
-  border-color: #fed136;
-}
-
-.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #fec810 !important;
-  border-color: #fec810 !important;
-  color: white;
-}
-
-.btn-primary:active, .btn-primary:focus {
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
-  box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
-}
+/*======== NAVBAR STYLE =========*/
 
 #mainNav {
   background-color: rgba(0, 34, 68, .80);
@@ -134,7 +72,7 @@ button, input, optgroup, select, textarea{
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
-  font-size: 100%;
+  font-size: 1.3rem;
   font-weight: 400;
   padding: 0.75em 0;
   letter-spacing: 1px;
@@ -160,7 +98,7 @@ button, input, optgroup, select, textarea{
     background-color: transparent !important;
   }
   #mainNav .navbar-brand {
-    font-size: 1.8em;
+    font-size: 2.5rem;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
   }
@@ -182,23 +120,39 @@ button, input, optgroup, select, textarea{
   		-1px 1px 0 #000,
   		1px 1px 0 #000 !important;
   }
+
+  #mainNav .navbar-nav li{
+    padding-right: .9rem;
+
+  }
+
+
   #mainNav.navbar-shrink {
     padding-top: 0;
     padding-bottom: 0;
     background-color: #000036 !important;
   }
   #mainNav.navbar-shrink .navbar-brand {
-    font-size: 1.25em;
+    font-size: 1.5em;
+    padding: 12px 0;
+  }
+  #mainNav.navbar-shrink .nav-item .nav-link {
+    font-size: 1em;
     padding: 12px 0;
   }
 }
 
-/*--- Header --*/
+  #mainNav img {
+    width: 18px;
+    height: 18px;
+  }
+
+/*========== HEADER STYLE ==========*/
 
 header.masthead {
   text-align: center;
   color: white !important;
-  background-image: url("../img/shop3.jpg") !important;
+  background-image: url("../img/hairstylist.jpg") !important;
   height: 100vh;
   width: 100%;
   display: flex;
@@ -218,51 +172,29 @@ header.masthead.container{
 }
 
 
-@media (min-width: 768px) {
-
-}
-
-
-
-/*--- Slider --*/
-
-
 
 header.masthead h2{
-  font-size: 80px;
+  font-size: 95px;
   text-transform: uppercase;
   font-weight: bold;
   font-family: 'Federo', sans-serif;
-  text-shadow: 4px 4px 4px black;
   letter-spacing: .1rem;
+  text-shadow: 6px 6px 6px black;
+
+
 
 }
 
 header.masthead h3 {
   text-shadow: 4px 4px 4px black;
-  font-size: 70px;
+  font-size: 90px;
   font-style: italic;
   font-family: Rancho;
 }
 
 
 
-@media (max-width: 850px) {
-  header.masthead h2 {
-    font-size: 3.3rem;
-    letter-spacing: .15rem;
-  }
-
-  header.masthead h3{
-    font-size: 3rem;
-  }
-}
-
-@media (max-width: 615px){
-  header.masthead {
-    padding-bottom: 20px !important;
-  }
-
+@media (max-width: 767px) {
   header.masthead h2 {
     font-size: 2.5rem;
     letter-spacing: .15rem;
@@ -270,28 +202,33 @@ header.masthead h3 {
 
   header.masthead h3{
     font-size: 2.3rem;
-
   }
 }
 
-@media (max-width: 378px){
-  header.masthead {
-    padding-bottom: 25px !important;
-  }
 
-  header.masthead h2 {
-    font-size: 2rem;
-    letter-spacing: .15rem;
-  }
-
-  header.masthead h3{
-    font-size: 1.8rem;
-}
 
 .service-heading {
   margin: 15px 0;
   text-transform: none;
 }
+
+
+/*============ BIO STYLE ==========*/
+
+
+
+.fixed {
+    background-image: url('../img/Pops2.jpg')!important;
+    z-index: -1;
+
+}
+
+.dark{
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+    padding: 100px 0;
+    padding-bottom: 500px;
+
 }
 
 
@@ -304,18 +241,22 @@ header.masthead h3 {
 }
 
 #services img{
+  height: 55px;
+  width: 55px;
   margin-bottom: 2rem !important;
 }
 
 #services h4{
+  color: white !important;
   font-family: 'Eczar', serif;
   font-size: 30px;
 }
 
 
 @media (max-width: 767px) {
-  .page-section {
+  .dark {
     padding: 25px 0 !important;
+    padding-bottom: 420px!important;
   }
 
   #services img {
@@ -338,18 +279,30 @@ header.masthead h3 {
   }
 }
 
-#portfolio .bg-dark{
-  background-image: url('img/salons.jpg');
-  background-repeat: no-repeat !important;
+
+/*============= SERVICES STYLE =============*/
+
+
+#portfolio .container {
+  position: relative;
+  z-index: 1!important;
+}
+
+#portfolio .serv-section {
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 #portfolio .container {
-  margin: auto !important;
-  width: 80%;
-  border: 4px double #041E42 !important;
+  margin-top: -360px!important;
+  border: 4px solid #041E42 !important;
   padding: 40px;
-  background-color: white;
+  background-color: white!important;
 
+}
+
+#portfolio .container .row {
+  background-color: white !important;
 }
 
 
@@ -459,10 +412,9 @@ header.masthead h3 {
   margin: 0;
   font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
-
-#portfolio * {
-  z-index: 2;
-}
+ #portfolio .container {
+   z-index: 1!important;
+ }
 
 @media (max-width:550px){
   #portfolio span.ml-auto{
@@ -488,6 +440,19 @@ header.masthead h3 {
   }
 }
 
+@media (min-width: 767px) {
+  #portfolio .portfolio-item {
+    margin: 0 0 30px;
+  }
+}
+
+
+/*============= CONTACT STYLE ==============*/
+
+section.page-section#team {
+  padding: 50px 0 !important;
+  background-color: #869397!important;
+}
 
 
 #team .section-heading{
@@ -505,37 +470,41 @@ header.masthead h3 {
 }
 
 
-@media (min-width: 767px) {
-  #portfolio .portfolio-item {
-    margin: 0 0 30px;
-  }
-}
-
 #team a{
   color: #041E42;
 }
 
-#team .fa-4x{
-  margin-top: 2rem;
-  color: #041E42 !important;
-}
 
 #team img.rounded-circle{
-  box-shadow: 0 0 10px 9px #aaa;
+  width: 225px;
+  height: 225px;
+  box-shadow: 0 0 15px 20px white;
+  border: 3px solid rgba(0, 34, 68, 0.8);
 }
 
 #team h3{
-  margin-top: 1rem;
+  margin-top: 1.5rem;
   font-family: 'Abril Fatface', cursive !important;
+  color: black!important;
 }
 
 #team p{
   font-size: 20px;
+  color: #041E42!important;
 }
 
 #team h6{
   font-family: 'Eczar', serif !important;
 }
+
+#team a img {
+  background-color: #869397!important;
+  width: 50px!important;
+  height: 50px!important;
+}
+
+
+/*============== LOCATED STYLE ===============*/
 
 
 #contact h2.section-heading{
@@ -556,11 +525,18 @@ header.masthead h3 {
   color: white !important;
 }
 
-#googleMap iframe{
-  width: 100%;
-  height: 450px;
-
+#contact h4 img{
+  height: 30px;
+  width: 30px;
 }
+
+@media (max-width:456px){
+  #contact div img .wordgoogle{
+    height: 33px!important;
+    width: 23px!important;
+  }
+}
+
 
 
 .team-member {
@@ -576,14 +552,9 @@ header.masthead h3 {
 }
 
 
-.team-member img {
-  width: 225px;
-  height: 225px;
-  border: 7px solid rgba(0, 0, 0, 0.1);
-}
 
 .team-member h4 {
-  margin-top: 25px;
+  margin-top: 8px;
   margin-bottom: 0;
   text-transform: none;
 }
@@ -649,6 +620,9 @@ section#contact :-ms-input-placeholder {
   color: #ced4da;
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
+
+
+/*============= FOOTER STYLE =============*/
 
 .footer {
   background-color: #041E42;

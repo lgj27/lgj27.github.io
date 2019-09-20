@@ -38,6 +38,7 @@
 
 
   <!-- Custom styles for this template -->
+  <link href="css/fixed.css" rel="stylesheet">
   <link href="css/agency.css" rel="stylesheet">
   <link href="css/animate.css" rel="stylesheet">
 
@@ -49,11 +50,11 @@
 
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-    <div class="container">
+    <div class="container-fluid">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">Louis Garcia</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
         data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        Menu <i class="fas fa-cut"></i>
+        Menu <img src="img/Favorites/icons8-barber-scissors-48.png">
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav text-uppercase ml-auto">
@@ -86,7 +87,7 @@
     </header>
 
 
-    <!--- Start Image Slider -->
+    <!--- Start Image Slider --
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel"
 data-interval="7000">
 	<ol class="carousel-indicators">
@@ -97,23 +98,23 @@ data-interval="7000">
     <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
 	</ol>
 	<div class="carousel-inner">
-		<!--- Slide 1 -->
+		<!--- Slide 1 --
 		<div class="carousel-item active">
       <img src="img/outsidesuit.jpg" alt="Los Angeles" width="1280" height="624">
     </div>
-		<!--- Slide 2 -->
+		<!--- Slide 2 --
 		<div class="carousel-item">
       <img src="img/shop11.JPG" alt="Chicago" width="1280" height="624">
 		</div>
-		<!--- Slide 3 -->
+		<!--- Slide 3 --
 		<div class="carousel-item">
       <img src="img/shop13.JPG" alt="New York" width="1280" height="624">
 		</div>
-    <!--- Slide 4 -->
+    <!--- Slide 4 --
 		<div class="carousel-item">
       <img src="img/shop15.JPG" alt="New York" width="1280" height="624">
 		</div>
-		</div> <!--- End Carousel Inner -->
+		</div> <!--- End Carousel Inner --
 		<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
 		data-slide="prev">
 			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -125,36 +126,48 @@ data-interval="7000">
 	</div>
 <!--- End Image Slider -->
 
-
 <!--- BIO SECTION -->
 
-  <section class="page-section" id="services">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">Bio</h2>
-          <img src="img/combscissors.png" style="width:100px; height:100px">
-          <h4>  I've been married for 39 years and we have 2 sons that we've put through
-            college. My eldest son, Luis, a Computer Science Graduate and my youngest son, JT,
-            an Electrical Engineer Graduate.
-            I've been in the hair business for 39 years and
-            I continue to enjoy and love what I do. I enjoy all my clients' company and their business and
-            pride myself in fulfilling all their needs and expectations. I continue to attend
-            hair shows regularly to stay up to date with new styles and different ways about doing
-            hair. Satisfaction is my number one priority.</h4>
+
+<div id="services" class="offset">
+
+  <div class="fixed-background">
+
+      <div class="row dark text-center">
+
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 text-center">
+              <h2 class="section-heading text-uppercase">Bio</h2>
+              <img src="img/Favorites/barberchair.png">
+              <h4>  I've been married for 39 years and we have 2 sons that we've put through
+                college. My eldest son, Luis, a Computer Science Graduate and my youngest son, JT,
+                an Electrical Engineer Graduate.
+                I've been in the hair business for 39 years and
+                I continue to enjoy and love what I do. I enjoy all my clients' company and their business and
+                pride myself in fulfilling all their needs and expectations. I continue to attend
+                hair shows regularly to stay up to date with new styles and different ways of doing
+                hair. Satisfaction is my number one priority.</h4>
+            </div>
+          </div>
         </div>
+
+        </div>
+      <div class="fixed-wrap">
+            <div class="fixed">
+            </div>
       </div>
 
-    </div>
-  </section>
+    </div><!--- End Fixed-Background-->
+</div>
+<!--- End Services Section-->
+
+
 
 <!--- PRICE LISTING -->
 
-<section class="bg-dark page-section" style="background-image:url('img/hairstylist.jpg');
-background-size:cover; background-repeat: no-repeat; display: flex; background-position: center center;
-flex-flow: column;"
- id="portfolio">
-  <div class="container">
+<section class="serv-section" id="portfolio">
+  <div class="container col-10 col-md-10 col-sm-10">
     <div class="row">
       <div class="col-xl-9 mx-auto">
         <div class="cta-inner text-center rounded">
@@ -228,7 +241,7 @@ flex-flow: column;"
 
 <!--- CONTACT SECTION -->
 
-  <section class="bg-light page-section" id="team">
+  <section class="page-section" id="team">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
@@ -243,8 +256,8 @@ flex-flow: column;"
             <p class="text-muted">Master Stylist</p>
             <h6>Preferred Method of Contact For Appointment<br>
             Text or Call:</h6>
-            <a href="tel:512-565-2561"><i class="fas fa-phone-square-alt fa-4x"></i></a>
-            <a href="tel:512-565-2561"><h4>(512) 565-2561</h4></a>
+            <a href="tel:512-565-2561"><img src="img/Favorites/iphone.png">
+            <h4>(512) 565-2561</h4></a>
           </div>
         </div>
 
@@ -252,6 +265,7 @@ flex-flow: column;"
       </div>
 
   </section>
+
 
 
 <!--- LOCATED SECTION -->
@@ -263,15 +277,22 @@ flex-flow: column;"
           <h2 class="section-heading text-uppercase">Located</h2>
 
         <div class="container" id="googleMap">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3442.7918604566653!2d-97.7374011855485!3d30.356864710702332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644cbaf721ff483%3A0x679a084c85cf167!2sNorthcross%20Mall!5e0!3m2!1sen!2sus!4v1568354049337!5m2!1sen!2sus" ></iframe>
-      </div>
-      <a href="https://www.google.com/maps/dir/?api=1&origin&destination=Northcross+Mall+2525+West+Anderson+Lane%2C+Austin%2C+TX&travelmode=driving&dir_action=navigate">
+            <iframe frameborder="0" style=" width:100%; height: 250px; top:0px; left:0px; border: none;"
+             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3442.7918604566653!2d-97.7374011855485!3d30.356864710702332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644cbaf721ff483%3A0x679a084c85cf167!2sNorthcross%20Mall!5e0!3m2!1sen!2sus!4v1568354049337!5m2!1sen!2sus" >
+            </iframe>
+
+            <div style="margin-left: 29px; margin-right: 40px; z-index: 1000000; position: absolute; left: 0px; bottom: 180px;">
+
+              <img class="wordgoogle" alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/google_white5.png" draggable="false" style="position: absolute; left: 0px; top: 0px; width: 50px; height: 20px; user-select: none; border: 0px; padding: 0px; margin: 0px;">
+            </div>
+        </div>
+
+      <a target="_blank" href="https://www.google.com/maps/dir/?api=1&origin&destination=Northcross+Mall+2525+West+Anderson+Lane%2C+Austin%2C+TX&travelmode=driving&dir_action=navigate">
           <h4 class="location">Gallery of Salons<br>
                                 Northcross Mall, Ste. A-10<br>
                                 2525 W. Anderson Lane<br>
-                                Austin, Texas 78757</a>
-                                <h5>Phone:</h5>
-                                <h4>(512) 407-3677</h4>
+                                Austin, Texas 78757</a><img src="img/Favorites/click.png"></h4>
+                                <div style="width: 66px; height: 26px; cursor: pointer;">
         </div>
     </div>
   </div>
