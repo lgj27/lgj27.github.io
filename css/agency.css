@@ -219,6 +219,11 @@ header.masthead h3 {
 
 .fixed {
     background-image: url('../img/Pops2.jpg')!important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
     z-index: -1;
 
 }
