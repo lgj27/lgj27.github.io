@@ -175,9 +175,9 @@ header.masthead.container{
 
 header.masthead h2{
   font-size: 95px;
+  font-weight: 400;
   text-transform: uppercase;
-  font-weight: bold;
-  font-family: 'Federo', sans-serif;
+  font-family: 'DM Serif Display', serif;
   letter-spacing: .1rem;
   text-shadow: 6px 6px 6px black;
 
@@ -196,12 +196,21 @@ header.masthead h3 {
 
 @media (max-width: 767px) {
   header.masthead h2 {
-    font-size: 2.5rem;
+    font-size: 4rem;
     letter-spacing: .15rem;
+    padding-bottom: 3rem!important;
   }
 
+  header.masthead span  {
+    animation-delay: 2s!important;
+    padding-bottom: 3rem;
+  }
+
+
   header.masthead h3{
-    font-size: 2.3rem;
+    animation-delay: 3s!important;
+    font-size: 3rem;
+    padding-bottom: .5rem!important;
   }
 }
 
@@ -238,10 +247,10 @@ header.masthead h3 {
 
 
 #services .section-heading{
-  font-family: 'Cinzel Decorative', cursive !important;
-  font-weight: 900 !important;
-  font-size: 45px !important;
-  color: #041E42;
+  font-family: 'DM Serif Display', serif!important;
+  font-weight: 400 !important;
+  font-size: 60px !important;
+  color: white;
   margin-bottom: 2rem !important;
 }
 
@@ -253,7 +262,8 @@ header.masthead h3 {
 
 #services h4{
   color: white !important;
-  font-family: 'Eczar', serif;
+  font-weight: 400!important;
+  font-family: 'Big Shoulders Display', cursive!important;
   font-size: 30px;
 }
 
@@ -280,7 +290,7 @@ header.masthead h3 {
 
 @media (max-width:377px){
   #services .section-heading{
-    font-size: 2rem !important;
+    font-size: 2.7rem !important;
   }
 }
 
@@ -312,9 +322,9 @@ header.masthead h3 {
 
 
 #portfolio span.section-heading-upper{
-  font-family: 'Cinzel Decorative', cursive !important;
-  font-weight: 900 !important;
-  font-size: 45px !important;
+  font-family: 'DM Serif Display', serif!important;
+  font-weight: 400 !important;
+  font-size: 60px !important;
   color: #041E42;
 }
 
@@ -328,9 +338,9 @@ header.masthead h3 {
 
 
 #portfolio span.section-heading-lower{
-  font-family: 'Cinzel Decorative', cursive !important;
-  font-weight: 400 !important;
-  font-size: 25px !important;
+  font-family: 'Playfair Display', serif !important;
+  font-weight: 900 !important;
+  font-size: 40px !important;
 }
 
 #portfolio ul{
@@ -422,6 +432,11 @@ header.masthead h3 {
  }
 
 @media (max-width:550px){
+  #portfolio span.section-heading-lower{
+    font-size: 1.9rem!important;
+  }
+
+
   #portfolio span.ml-auto{
     font-size: .9rem !important;
   }
@@ -433,7 +448,11 @@ header.masthead h3 {
 
 @media (max-width:377px){
   #portfolio span.section-heading-upper{
-    font-size: 2rem !important;
+    font-size: 2.7rem !important;
+  }
+
+  #portfolio span.section-heading-lower{
+    font-size: 1.5rem!important;
   }
 
   #portfolio span.ml-auto{
@@ -461,9 +480,9 @@ section.page-section#team {
 
 
 #team .section-heading{
-  font-family: 'Cinzel Decorative', cursive !important;
-  font-weight: 900 !important;
-  font-size: 45px !important;
+  font-family: 'DM Serif Display', serif!important;
+  font-weight: 400 !important;
+  font-size: 60px !important;
   color: #041E42 !important;
   margin-bottom: 2rem !important;
 }
@@ -473,6 +492,9 @@ section.page-section#team {
     font-size: 2rem !important;
   }
 }
+
+
+
 
 
 #team a{
@@ -489,16 +511,18 @@ section.page-section#team {
 
 #team h3{
   margin-top: 1.5rem;
-  font-family: 'Abril Fatface', cursive !important;
+  font-family: 'Playfair Display', serif !important;
+  font-weight: 900 !important;
   color: black!important;
 }
 
 #team p{
-  font-size: 20px;
+  font-size: 23px;
   color: #041E42!important;
 }
 
 #team h6{
+  font-size: 18px;
   font-family: 'Eczar', serif !important;
 }
 
@@ -508,14 +532,23 @@ section.page-section#team {
   height: 50px!important;
 }
 
+@media (max-width:377px){
+  #team .section-heading{
+    font-size: 2.7rem !important;
+  }
+}
+
 
 /*============== LOCATED STYLE ===============*/
 
+.page-section#contact{
+  padding: 50px 0 !important;
+}
 
 #contact h2.section-heading{
-  font-family: 'Cinzel Decorative', cursive !important;
-  font-weight: 900 !important;
-  font-size: 45px !important;
+  font-family: 'DM Serif Display', serif!important;
+  font-weight: 400 !important;
+  font-size: 60px !important;
   margin-bottom: 2rem;
 }
 
@@ -524,8 +557,9 @@ section.page-section#team {
   color: white !important;
 }
 
-#contact h4{
-  font-family: 'Eczar', serif;
+#contact a h4{
+  font-family: 'Playfair Display', serif !important;
+  font-weight: 900 !important;
   margin-top: 1rem;
   color: white !important;
 }
@@ -534,6 +568,13 @@ section.page-section#team {
   height: 30px;
   width: 30px;
 }
+
+@media (max-width:377px){
+  #contact h2.section-heading{
+    font-size: 2.5rem !important;
+  }
+}
+
 
 @media (max-width:456px){
   #contact div img .wordgoogle{
@@ -640,7 +681,8 @@ section#contact :-ms-input-placeholder {
   font-size: 90%;
   line-height: 40px;
   text-transform: none;
-  font-family: 'Eczar', serif;
+  font-family: 'Playfair Display', serif !important;
+  font-weight: 900 !important;
 }
 
 .footer ul.quicklinks {
