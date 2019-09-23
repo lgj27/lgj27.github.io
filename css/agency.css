@@ -254,6 +254,14 @@ header.masthead h3 {
   margin-bottom: 2rem !important;
 }
 
+#services .row .heading-underline {
+    width: 3rem;
+    height: .2rem;
+    background-color: white!important;
+    margin: 0 auto 2rem;
+    margin-top: -1rem;
+}
+
 #services img{
   height: 55px;
   width: 55px;
@@ -310,6 +318,7 @@ header.masthead h3 {
 
 #portfolio .container {
   margin-top: -360px!important;
+  margin-bottom: 40px!important;
   border: 4px solid #041E42 !important;
   padding: 40px;
   background-color: white!important;
@@ -329,7 +338,7 @@ header.masthead h3 {
 }
 
 #portfolio .heading-underline{
-  width: 8rem;
+  width: 3rem;
   height: .2rem;
   background-color: #000000;
   margin: 0 auto 2rem;
@@ -473,6 +482,14 @@ header.masthead h3 {
 
 /*============= CONTACT STYLE ==============*/
 
+
+
+
+.team-member {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
 section.page-section#team {
   padding: 50px 0 !important;
   background-color: #869397!important;
@@ -487,14 +504,20 @@ section.page-section#team {
   margin-bottom: 2rem !important;
 }
 
+#team .row .heading-underline {
+    width: 3rem;
+    height: .2rem;
+    background-color: #041E42 !important;
+    margin: 0 auto 2rem;
+    margin-top: -1rem;
+
+}
+
 @media (max-width:377px){
   #team .section-heading{
     font-size: 2rem !important;
   }
 }
-
-
-
 
 
 #team a{
@@ -516,15 +539,17 @@ section.page-section#team {
   color: black!important;
 }
 
+#team .team-member h4{
+  font-family: 'Playfair Display', serif !important;
+  font-weight: 900 !important;
+  color: #041E42!important;
+}
+
 #team p{
   font-size: 23px;
   color: #041E42!important;
 }
 
-#team h6{
-  font-size: 18px;
-  font-family: 'Eczar', serif !important;
-}
 
 #team a img {
   background-color: #869397!important;
@@ -552,17 +577,32 @@ section.page-section#team {
   margin-bottom: 2rem;
 }
 
+#contact .row .heading-underline {
+    width: 3rem;
+    height: .2rem;
+    background-color: white !important;
+    margin: 0 auto 2rem;
+    margin-top: -1rem;
+}
+
+
+#contact a {
+  color: white!important;
+}
+
+#contact h4{
+  font-family: 'Playfair Display', serif !important;
+  font-weight: 900 !important;
+  color: white!important;
+}
+
+
 #contact h5{
   font-family: 'Eczar', serif;
   color: white !important;
 }
 
-#contact a h4{
-  font-family: 'Playfair Display', serif !important;
-  font-weight: 900 !important;
-  margin-top: 1rem;
-  color: white !important;
-}
+
 
 #contact h4 img{
   height: 30px;
@@ -583,31 +623,6 @@ section.page-section#team {
   }
 }
 
-
-
-.team-member {
-  margin-bottom: 50px;
-  text-align: center;
-}
-
-.team-member{
-  a{
-    font-color: #041E42 !important;
-    color:#041E42!important;
-  }
-}
-
-
-
-.team-member h4 {
-  margin-top: 8px;
-  margin-bottom: 0;
-  text-transform: none;
-}
-
-.team-member p {
-  margin-top: 0;
-}
 
 section#contact {
   background-color: #212529;
