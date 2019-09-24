@@ -670,7 +670,7 @@ section.page-section#gallery {
 section.page-section#team {
   padding: 50px 0 !important;
   padding-bottom: 20px!important;
-  background-color: #869397!important;
+  background-color: #7F9695!important;
 }
 
 
@@ -715,6 +715,7 @@ section.page-section#team {
   font-family: 'Playfair Display', serif !important;
   font-weight: 900 !important;
   color: black!important;
+  margin-bottom: 0!important;
 }
 
 #team .team-member h4{
@@ -724,15 +725,14 @@ section.page-section#team {
 }
 
 #team p{
-  font-size: 23px;
+  font-size: 20px!important;
   color: #041E42!important;
 }
 
 
 #team a img {
-  background-color: #869397!important;
-  width: 50px!important;
-  height: 50px!important;
+  width: 40px!important;
+  height: 40px!important;
 }
 
 @media (max-width:377px){
